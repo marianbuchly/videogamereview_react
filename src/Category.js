@@ -7,6 +7,7 @@ class Category extends React.Component {
 
       <div className="Category">
         <h1>Category</h1>
+        <p>ID: {this.props.params.categoryId}</p>
         {this.props.children}
       </div>
 
